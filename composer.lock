@@ -4,28 +4,28 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7f52233be7c1c0b69c5d260560bb106b",
-    "content-hash": "ca93ae3518ec26d4e4af302b91aac5c2",
+    "hash": "efcf35ce6c51568414b55b53ba9cc73a",
+    "content-hash": "132cca623b94b01a0b448688b4301b9b",
     "packages": [
         {
             "name": "phireframework/header",
-            "version": "0.0.1",
+            "version": "0.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phireframework/Header.git",
-                "reference": "54ccd63f84831a25774e2d3c49bc60ec50ab3661"
+                "reference": "cf4ce3ec58d1ad8e91087d120e44f2248380fb58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phireframework/Header/zipball/54ccd63f84831a25774e2d3c49bc60ec50ab3661",
-                "reference": "54ccd63f84831a25774e2d3c49bc60ec50ab3661",
+                "url": "https://api.github.com/repos/phireframework/Header/zipball/cf4ce3ec58d1ad8e91087d120e44f2248380fb58",
+                "reference": "cf4ce3ec58d1ad8e91087d120e44f2248380fb58",
                 "shasum": ""
             },
             "type": "library",
             "autoload": {
-                "files": [
-                    "src/Header.php"
-                ]
+                "psr-4": {
+                    "Phire\\Http\\Headers\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -40,33 +40,35 @@
                 }
             ],
             "description": "PHP HTTP header library",
-            "homepage": "https://github.com/mykehowells/header",
+            "homepage": "https://github.com/phireframework/header",
             "keywords": [
                 "header",
                 "http",
                 "php"
             ],
-            "time": "2016-07-07 08:53:36"
+            "time": "2016-07-07 14:08:07"
         },
         {
             "name": "phireframework/router",
-            "version": "0.0.1",
+            "version": "0.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phireframework/Router.git",
-                "reference": "032a4596561c868dc8f5f157d3d8583cc129ee25"
+                "reference": "d776c7fa4104c859482e2e5fcb20ae43fdc8e661"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phireframework/Router/zipball/032a4596561c868dc8f5f157d3d8583cc129ee25",
-                "reference": "032a4596561c868dc8f5f157d3d8583cc129ee25",
+                "url": "https://api.github.com/repos/phireframework/Router/zipball/d776c7fa4104c859482e2e5fcb20ae43fdc8e661",
+                "reference": "d776c7fa4104c859482e2e5fcb20ae43fdc8e661",
                 "shasum": ""
             },
             "type": "library",
             "autoload": {
+                "psr-4": {
+                    "Phire\\Http\\": "src/"
+                },
                 "files": [
-                    "src/Request.php",
-                    "src/Router.php"
+                    "src/Helpers/include.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -82,13 +84,13 @@
                 }
             ],
             "description": "PHP HTTP router",
-            "homepage": "https://github.com/mykehowells/router",
+            "homepage": "https://github.com/phireframework/router",
             "keywords": [
                 "http",
                 "php",
                 "router"
             ],
-            "time": "2016-07-06 08:30:37"
+            "time": "2016-07-07 15:04:38"
         },
         {
             "name": "phireframework/support",
