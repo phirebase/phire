@@ -1,0 +1,143 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "7f52233be7c1c0b69c5d260560bb106b",
+    "content-hash": "ca93ae3518ec26d4e4af302b91aac5c2",
+    "packages": [
+        {
+            "name": "phireframework/header",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phireframework/Header.git",
+                "reference": "54ccd63f84831a25774e2d3c49bc60ec50ab3661"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phireframework/Header/zipball/54ccd63f84831a25774e2d3c49bc60ec50ab3661",
+                "reference": "54ccd63f84831a25774e2d3c49bc60ec50ab3661",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/Header.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Myke Howells",
+                    "email": "myke@mykeand.co",
+                    "homepage": "http://mykehowells.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP HTTP header library",
+            "homepage": "https://github.com/mykehowells/header",
+            "keywords": [
+                "header",
+                "http",
+                "php"
+            ],
+            "time": "2016-07-07 08:53:36"
+        },
+        {
+            "name": "phireframework/router",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phireframework/Router.git",
+                "reference": "032a4596561c868dc8f5f157d3d8583cc129ee25"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phireframework/Router/zipball/032a4596561c868dc8f5f157d3d8583cc129ee25",
+                "reference": "032a4596561c868dc8f5f157d3d8583cc129ee25",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/Request.php",
+                    "src/Router.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Myke Howells",
+                    "email": "myke@mykeand.co",
+                    "homepage": "http://mykehowells.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP HTTP router",
+            "homepage": "https://github.com/mykehowells/router",
+            "keywords": [
+                "http",
+                "php",
+                "router"
+            ],
+            "time": "2016-07-06 08:30:37"
+        },
+        {
+            "name": "phireframework/support",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phireframework/Support.git",
+                "reference": "ac8d0bb2b089287abf8c7a0b6c4d64c0e2854ff6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phireframework/Support/zipball/ac8d0bb2b089287abf8c7a0b6c4d64c0e2854ff6",
+                "reference": "ac8d0bb2b089287abf8c7a0b6c4d64c0e2854ff6",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phire\\Support\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Myke Howells",
+                    "email": "myke@mykeand.co",
+                    "homepage": "http://mykehowells.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP HTTP router",
+            "homepage": "https://github.com/phireframework/support",
+            "keywords": [
+                "http",
+                "php",
+                "support"
+            ],
+            "time": "2016-07-07 14:08:06"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

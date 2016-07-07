@@ -1,0 +1,7 @@
+{
+    "require": {
+        "phireframework/router": "^0.0.1",
+        "phireframework/support": "^0.0.1",
+        "phireframework/header": "^0.0.1"
+    }
+}
