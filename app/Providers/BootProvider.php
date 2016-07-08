@@ -17,7 +17,9 @@ class BootProvider extends Provider {
 	 */
 	public function boot() {
 
-		return self::loadRoutes();
+		self::loadRoutes();
+
+
 
 	}
 
