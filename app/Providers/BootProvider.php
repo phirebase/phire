@@ -21,6 +21,11 @@ class BootProvider extends Provider {
 
 	}
 
+	/**
+	 * Load the routes into the application.
+	 * 
+	 * @return mixed
+	 */
 	private static function loadRoutes() {
 
 		new Route();
