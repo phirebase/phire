@@ -25,6 +25,16 @@ $app = new \Phire\Support\Factory\Application(
 $config = require config_path('app.php');
 
 /*------------------------------------------------------------
+ | Aliases
+ |------------------------------------------------------------
+ |
+ | Load providers into application runtime.
+ |
+ */
+
+\Phire\Support\Booter::bootProviders($config['aliases']);
+
+/*------------------------------------------------------------
  | Providers
  |------------------------------------------------------------
  |

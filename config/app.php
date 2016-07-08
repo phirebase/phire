@@ -8,7 +8,7 @@ return [
 	/*
 	 * Class aliases
 	 */
-	'alias' => [
+	'aliases' => [
 		
 		'Route' => \Phire\Http\Routing\Route::class,
 		
