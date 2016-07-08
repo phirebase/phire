@@ -2,7 +2,9 @@
     "require": {
         "phireframework/router": "*",
         "phireframework/support": "*",
-        "phireframework/header": "*"
+        "phireframework/header": "*",
+        "illuminate/database": "^5.2",
+        "symfony/var-dumper": "^3.1"
     },
     "autoload": {
         "psr-4": {
