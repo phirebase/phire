@@ -11,6 +11,6 @@
 
 Route::get( '/', function () {
 
-	return;
+	return response(["Greetings" => "from Phire"])->asJson();
 
 } );
