@@ -32,7 +32,7 @@ $config = require config_path('app.php');
  |
  */
 
-\Phire\Support\Booter::bootProviders($config['aliases']);
+\Phire\Support\Factory\Aliaser::loadAliases($config['aliases']);
 
 /*------------------------------------------------------------
  | Providers

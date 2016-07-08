@@ -94,16 +94,16 @@
         },
         {
             "name": "phireframework/support",
-            "version": "0.0.5",
+            "version": "0.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phireframework/Support.git",
-                "reference": "8ea12bcd8f4e9b4cf81284aacef1bb190eccbab9"
+                "reference": "ce7cc112fcf020ca11eb7026db17a462d28fce10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phireframework/Support/zipball/8ea12bcd8f4e9b4cf81284aacef1bb190eccbab9",
-                "reference": "8ea12bcd8f4e9b4cf81284aacef1bb190eccbab9",
+                "url": "https://api.github.com/repos/phireframework/Support/zipball/ce7cc112fcf020ca11eb7026db17a462d28fce10",
+                "reference": "ce7cc112fcf020ca11eb7026db17a462d28fce10",
                 "shasum": ""
             },
             "type": "library",
@@ -134,7 +134,7 @@
                 "php",
                 "support"
             ],
-            "time": "2016-07-08 13:05:53"
+            "time": "2016-07-08 15:37:35"
         }
     ],
     "packages-dev": [],

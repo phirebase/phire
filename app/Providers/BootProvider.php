@@ -1,7 +1,9 @@
 <?php
 
 namespace App\Providers;
+
 use Phire\Http\Routing\Route;
+use Phire\Support\Provider;
 
 /**
  * Class BootProvider
@@ -15,7 +17,7 @@ class BootProvider extends Provider {
 	 */
 	public function boot() {
 
-		static::loadRoutes();
+		return self::loadRoutes();
 
 	}
 
