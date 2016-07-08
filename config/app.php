@@ -12,6 +12,15 @@ return [
 		
 		'Route' => \Phire\Http\Routing\Route::class,
 		
-	]
+	],
+
+	/*
+	 * Application providers
+	 */
+	'providers' => [
+
+		'BootProvider' => \App\Providers\BootProvider::class,
+
+	],
 	
 ];
