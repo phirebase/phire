@@ -13,24 +13,35 @@ use Phire\Support\Provider;
 class BootProvider extends Provider {
 
 	/**
-	 * Boot BootProvider class.
+	 * Triggered when provider is registered with Application container.
+	 *
+	 * @return mixed
 	 */
-	public function boot() {
+	public function register() {
 
 		self::loadRoutes();
-
-
 
 	}
 
 	/**
+	 * Boot method.
+	 *
+	 * @return mixed
+	 */
+	public function boot() {}
+
+	/**
 	 * Load the routes into the application.
-	 * 
+	 *
 	 * @return mixed
 	 */
 	private static function loadRoutes() {
 
-		new Route();
+		new Route([
+
+			'controllerNamespace' => '\\App\\Http\\Controllers\\'
+
+		]);
 
 		require app_path('Http/routes.php');
 

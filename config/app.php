@@ -11,8 +11,7 @@ return [
 	'aliases' => [
 		
 		'Route' => \Phire\Http\Routing\Route::class,
-		'Model' => \Illuminate\Database\Eloquent\Model::class,
-		
+
 	],
 
 	/*

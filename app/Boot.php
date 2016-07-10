@@ -47,4 +47,3 @@ $config = require config_path('app.php');
  */
 
 \Phire\Support\Booter::bootProviders($config['providers']);
-

@@ -457,16 +457,16 @@
         },
         {
             "name": "phireframework/support",
-            "version": "0.0.7",
+            "version": "0.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phireframework/Support.git",
-                "reference": "d1496a3af81c91680dbabcfec474280109d5ae6a"
+                "reference": "441e990372d2c28efca078d3302d22537f76443f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phireframework/Support/zipball/d1496a3af81c91680dbabcfec474280109d5ae6a",
-                "reference": "d1496a3af81c91680dbabcfec474280109d5ae6a",
+                "url": "https://api.github.com/repos/phireframework/Support/zipball/441e990372d2c28efca078d3302d22537f76443f",
+                "reference": "441e990372d2c28efca078d3302d22537f76443f",
                 "shasum": ""
             },
             "require": {
@@ -502,7 +502,7 @@
                 "php",
                 "support"
             ],
-            "time": "2016-07-08 20:59:42"
+            "time": "2016-07-10 14:02:02"
         },
         {
             "name": "symfony/polyfill-mbstring",

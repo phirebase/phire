@@ -15,7 +15,14 @@ class DatabaseProvider extends Provider {
     /**
      * Boot DatabaseProvider class.
      */
-    public function boot() {
+    public function boot() {}
+
+    /**
+     * Triggered when provider is registered with Application container.
+     *
+     * @return mixed
+     */
+    public function register() {
 
         $capsule = new Capsule;
 
@@ -33,5 +40,4 @@ class DatabaseProvider extends Provider {
         $capsule->bootEloquent();
 
     }
-
 }
