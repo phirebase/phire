@@ -6,7 +6,7 @@
 return [
 	
 	/*
-	 * Class aliases
+	 * Class aliases.
 	 */
 	'aliases' => [
 		
@@ -15,7 +15,7 @@ return [
 	],
 
 	/*
-	 * Application providers
+	 * Application providers.
 	 */
 	'providers' => [
 
