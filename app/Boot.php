@@ -26,7 +26,7 @@ $app = new \Phire\Support\Factory\Application(
  |
  */
 
-$config = require config_path('app.php');
+$app->loadConfig();
 
 /*------------------------------------------------------------
  | Aliases
@@ -36,7 +36,7 @@ $config = require config_path('app.php');
  |
  */
 
-\Phire\Support\Factory\Aliaser::loadAliases($config['aliases']);
+\Phire\Support\Factory\Aliaser::loadAliases($app->config('app.aliases'));
 
 /*------------------------------------------------------------
  | Providers
@@ -46,4 +46,4 @@ $config = require config_path('app.php');
  |
  */
 
-\Phire\Support\Booter::bootProviders($config['providers']);
+\Phire\Support\Booter::bootProviders($app->config('app.providers'));
