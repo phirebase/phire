@@ -1,8 +1,8 @@
 {
     "require": {
-        "phireframework/router": "*",
-        "phireframework/support": "*",
-        "phireframework/header": "*"
+        "phireframework/router": "dev-master",
+        "phireframework/support": "dev-master",
+        "phireframework/header": "dev-master"
     },
     "autoload": {
         "psr-4": {

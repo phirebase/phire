@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1534a0b2d2cae017fa2d7ceb49ed4b41",
-    "content-hash": "132cca623b94b01a0b448688b4301b9b",
+    "hash": "f5ea1d43339df68ea196acea574f18e3",
+    "content-hash": "31441eb9b9b886a02ceae5bed5872538",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -373,16 +373,16 @@
         },
         {
             "name": "phireframework/header",
-            "version": "0.0.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phireframework/Header.git",
-                "reference": "cf4ce3ec58d1ad8e91087d120e44f2248380fb58"
+                "reference": "e9291a7459c5990e53a8aa1d27544d8308a225d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phireframework/Header/zipball/cf4ce3ec58d1ad8e91087d120e44f2248380fb58",
-                "reference": "cf4ce3ec58d1ad8e91087d120e44f2248380fb58",
+                "url": "https://api.github.com/repos/phireframework/Header/zipball/e9291a7459c5990e53a8aa1d27544d8308a225d8",
+                "reference": "e9291a7459c5990e53a8aa1d27544d8308a225d8",
                 "shasum": ""
             },
             "type": "library",
@@ -410,20 +410,20 @@
                 "http",
                 "php"
             ],
-            "time": "2016-07-07 14:08:07"
+            "time": "2016-07-08 13:32:28"
         },
         {
             "name": "phireframework/router",
-            "version": "0.0.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phireframework/Router.git",
-                "reference": "d776c7fa4104c859482e2e5fcb20ae43fdc8e661"
+                "reference": "fc79db3cf6d45d1f7c82beaaf6129f0d832408df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phireframework/Router/zipball/d776c7fa4104c859482e2e5fcb20ae43fdc8e661",
-                "reference": "d776c7fa4104c859482e2e5fcb20ae43fdc8e661",
+                "url": "https://api.github.com/repos/phireframework/Router/zipball/fc79db3cf6d45d1f7c82beaaf6129f0d832408df",
+                "reference": "fc79db3cf6d45d1f7c82beaaf6129f0d832408df",
                 "shasum": ""
             },
             "type": "library",
@@ -454,11 +454,11 @@
                 "php",
                 "router"
             ],
-            "time": "2016-07-07 15:04:38"
+            "time": "2016-11-09 13:11:47"
         },
         {
             "name": "phireframework/support",
-            "version": "0.0.13",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phireframework/Support.git",
@@ -1045,7 +1045,11 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "phireframework/router": 20,
+        "phireframework/support": 20,
+        "phireframework/header": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
