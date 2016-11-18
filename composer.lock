@@ -76,7 +76,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v5.3.16",
+            "version": "v5.3.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -119,7 +119,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.3.16",
+            "version": "v5.3.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -161,16 +161,16 @@
         },
         {
             "name": "illuminate/database",
-            "version": "v5.3.16",
+            "version": "v5.3.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "c3adc9e07796d718df9f49ab325bda672a7c344a"
+                "reference": "8db1197b3d3e8a7393153643774d2924cdc6d906"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/c3adc9e07796d718df9f49ab325bda672a7c344a",
-                "reference": "c3adc9e07796d718df9f49ab325bda672a7c344a",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/8db1197b3d3e8a7393153643774d2924cdc6d906",
+                "reference": "8db1197b3d3e8a7393153643774d2924cdc6d906",
                 "shasum": ""
             },
             "require": {
@@ -217,20 +217,20 @@
                 "orm",
                 "sql"
             ],
-            "time": "2016-10-04 01:41:20"
+            "time": "2016-11-14 15:37:58"
         },
         {
             "name": "illuminate/support",
-            "version": "v5.3.16",
+            "version": "v5.3.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "aa685c61c88a69b2e0e86310e65ef5ad2ebf2448"
+                "reference": "050d0ed3e1c0e1d129d73b2eaa14044e46a66f77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/aa685c61c88a69b2e0e86310e65ef5ad2ebf2448",
-                "reference": "aa685c61c88a69b2e0e86310e65ef5ad2ebf2448",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/050d0ed3e1c0e1d129d73b2eaa14044e46a66f77",
+                "reference": "050d0ed3e1c0e1d129d73b2eaa14044e46a66f77",
                 "shasum": ""
             },
             "require": {
@@ -274,7 +274,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2016-10-02 01:14:47"
+            "time": "2016-11-03 15:25:28"
         },
         {
             "name": "nesbot/carbon",
@@ -462,12 +462,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phireframework/Support.git",
-                "reference": "c9c495501dd32907c582b6f631d5fbd11dd97cfd"
+                "reference": "894d3affce2115196b33d1912c46acfe1ef3a12d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phireframework/Support/zipball/c9c495501dd32907c582b6f631d5fbd11dd97cfd",
-                "reference": "c9c495501dd32907c582b6f631d5fbd11dd97cfd",
+                "url": "https://api.github.com/repos/phireframework/Support/zipball/894d3affce2115196b33d1912c46acfe1ef3a12d",
+                "reference": "894d3affce2115196b33d1912c46acfe1ef3a12d",
                 "shasum": ""
             },
             "require": {
@@ -504,7 +504,7 @@
                 "php",
                 "support"
             ],
-            "time": "2016-11-09 12:53:51"
+            "time": "2016-11-18 17:13:41"
         },
         {
             "name": "psr/log",
@@ -807,16 +807,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.2.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "dff51f72b0706335131b00a7f49606168c582594"
+                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/dff51f72b0706335131b00a7f49606168c582594",
-                "reference": "dff51f72b0706335131b00a7f49606168c582594",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/e79d363049d1c2128f133a2667e4f4190904f7f4",
+                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4",
                 "shasum": ""
             },
             "require": {
@@ -828,7 +828,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-master": "1.3-dev"
                 }
             },
             "autoload": {
@@ -862,7 +862,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-05-18 14:26:46"
+            "time": "2016-11-14 01:06:16"
         },
         {
             "name": "symfony/translation",
