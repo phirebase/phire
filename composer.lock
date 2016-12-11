@@ -506,12 +506,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phireframework/Support.git",
-                "reference": "43e248c47d4e11a8720793e7e1a3c4a98b7e47a7"
+                "reference": "a581c0544941b0174c2ca0d707f73c05a6a7b06c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phireframework/Support/zipball/43e248c47d4e11a8720793e7e1a3c4a98b7e47a7",
-                "reference": "43e248c47d4e11a8720793e7e1a3c4a98b7e47a7",
+                "url": "https://api.github.com/repos/phireframework/Support/zipball/a581c0544941b0174c2ca0d707f73c05a6a7b06c",
+                "reference": "a581c0544941b0174c2ca0d707f73c05a6a7b06c",
                 "shasum": ""
             },
             "require": {
@@ -549,7 +549,7 @@
                 "php",
                 "support"
             ],
-            "time": "2016-11-30 18:13:41"
+            "time": "2016-12-02 23:18:27"
         },
         {
             "name": "psr/log",
