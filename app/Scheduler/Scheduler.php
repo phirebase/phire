@@ -2,6 +2,8 @@
 
 namespace App\Scheduler;
 
+use App\Scheduler\Events\DemoEvent;
+
 use Phire\Support\Scheduler\Manager;
 
 /**
@@ -23,7 +25,7 @@ class Scheduler {
      */
 	public function schedule(Manager $manager) {
 
-		//$manager->task(WarrantyLoadExportEvent::class)->hourly();
+		$manager->task(DemoEvent::class)->minutely();
 
 	}
 
