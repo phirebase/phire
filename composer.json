@@ -2,7 +2,9 @@
     "require": {
         "phireframework/router": "dev-master",
         "phireframework/support": "dev-master",
-        "phireframework/header": "dev-master"
+        "phireframework/header": "dev-master",
+        "larapack/dd": "^1.0",
+        "filp/whoops": "^2.1"
     },
     "autoload": {
         "psr-4": {
