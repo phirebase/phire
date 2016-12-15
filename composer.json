@@ -1,5 +1,6 @@
 {
     "require": {
+        "phireframework/framework": "dev-master",
         "phireframework/router": "dev-master",
         "phireframework/support": "dev-master",
         "phireframework/header": "dev-master",
