@@ -13,7 +13,8 @@ class Kernel extends HttpKernel {
      */
     protected $bootstrap = [
         \Phire\Framework\Bootstrap\LoadEnvironment::class,
-        \Phire\Framework\Bootstrap\LoadEnvironment::class,
+        \Phire\Framework\Bootstrap\LoadConfiguration::class,
+        \Phire\Framework\Bootstrap\DispatchRoutes::class,
     ];
 
 }
