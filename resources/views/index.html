@@ -1,1 +1,61 @@
-<p>{{ greeting }} from <strong>Phire</strong>!</p>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to Phire Framework!</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <style type="text/css">
+
+        html, body {
+            height:100vh;
+        }
+        #intro {
+            transform: translateY(-50%);
+            position: absolute;
+            top: 50%;
+            width:100%;
+        }
+        #intro .container {
+            padding-top:auto;
+        }
+
+    </style>
+</head>
+<body>
+
+    <section id="intro">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title text-center">Welcome to Phire Framework</h3>
+                        </div>
+                        <div class="panel-body">
+
+                            <p>Welcome to Phire! The lightweight PHP framework, implementing Symfony2 and Twig.</p>
+
+                            <p>To edit this page, go to <code>resources/views/index.html</code>.</p>
+
+                            <p>If you're a developer, I'd recommend switching off caching in <code>.env</code>.</p>
+
+                            <p>Anything you're looking is most likely located in <code>app/</code>, including <code>Controllers/</code> and <code>Models/</code>.</p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+</html>

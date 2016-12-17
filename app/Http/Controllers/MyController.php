@@ -16,8 +16,7 @@ class MyController {
      */
     public function index() {
 
-        return response()->withView('index')
-            ->with('greeting', 'Greetings');
+        return response()->withView('index');
 
     }
 
