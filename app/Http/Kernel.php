@@ -20,6 +20,7 @@ class Kernel extends HttpKernel {
         \Phire\Framework\Bootstrap\LoadEnvironment::class,
         \Phire\Framework\Bootstrap\LoadConfiguration::class,
         \Phire\Framework\Bootstrap\PrepareRoutes::class,
+        \Phire\Framework\Bootstrap\AliasClasses::class,
     ];
 
 }

@@ -513,16 +513,16 @@
         },
         {
             "name": "phireframework/framework",
-            "version": "1.0.0",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phireframework/Framework.git",
-                "reference": "1c4d80721a4f0e9c573996eb2b0c7c6776901770"
+                "reference": "1dcec32371020d82a1fd27f86503ed404cd71d4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phireframework/Framework/zipball/1c4d80721a4f0e9c573996eb2b0c7c6776901770",
-                "reference": "1c4d80721a4f0e9c573996eb2b0c7c6776901770",
+                "url": "https://api.github.com/repos/phireframework/Framework/zipball/1dcec32371020d82a1fd27f86503ed404cd71d4a",
+                "reference": "1dcec32371020d82a1fd27f86503ed404cd71d4a",
                 "shasum": ""
             },
             "type": "library",
@@ -554,7 +554,7 @@
                 "phireframework",
                 "php"
             ],
-            "time": "2016-12-17 17:05:35"
+            "time": "2016-12-17 23:36:36"
         },
         {
             "name": "phireframework/header",
