@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a1d21bbefbe0aeaff1aa0c4a0acb49fd",
-    "content-hash": "f0d12a0d366e182690df0e982f806a11",
+    "hash": "0e96079609281d89ff9d8dc117d83e64",
+    "content-hash": "4a4d0723ef5fd301ba1452da7b9ae8aa",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -513,7 +513,7 @@
         },
         {
             "name": "phireframework/framework",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phireframework/Framework.git",
@@ -558,7 +558,7 @@
         },
         {
             "name": "phireframework/header",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phireframework/Header.git",
@@ -599,7 +599,7 @@
         },
         {
             "name": "phireframework/router",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phireframework/Router.git",
@@ -643,7 +643,7 @@
         },
         {
             "name": "phireframework/support",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phireframework/Support.git",
@@ -1294,12 +1294,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "phireframework/framework": 20,
-        "phireframework/router": 20,
-        "phireframework/support": 20,
-        "phireframework/header": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
