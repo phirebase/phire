@@ -517,12 +517,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phireframework/Framework.git",
-                "reference": "0913f9b2f3fff824f6cf191566a276f711111f6e"
+                "reference": "1c4d80721a4f0e9c573996eb2b0c7c6776901770"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phireframework/Framework/zipball/0913f9b2f3fff824f6cf191566a276f711111f6e",
-                "reference": "0913f9b2f3fff824f6cf191566a276f711111f6e",
+                "url": "https://api.github.com/repos/phireframework/Framework/zipball/1c4d80721a4f0e9c573996eb2b0c7c6776901770",
+                "reference": "1c4d80721a4f0e9c573996eb2b0c7c6776901770",
                 "shasum": ""
             },
             "type": "library",
@@ -554,7 +554,7 @@
                 "phireframework",
                 "php"
             ],
-            "time": "2016-12-17 12:28:22"
+            "time": "2016-12-17 17:05:35"
         },
         {
             "name": "phireframework/header",
@@ -603,12 +603,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phireframework/Router.git",
-                "reference": "13061389b249aa3010aff53b0051c47e33ee768a"
+                "reference": "9a5ee28edbbb53929fdc4201f75754238e1f2e3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phireframework/Router/zipball/13061389b249aa3010aff53b0051c47e33ee768a",
-                "reference": "13061389b249aa3010aff53b0051c47e33ee768a",
+                "url": "https://api.github.com/repos/phireframework/Router/zipball/9a5ee28edbbb53929fdc4201f75754238e1f2e3b",
+                "reference": "9a5ee28edbbb53929fdc4201f75754238e1f2e3b",
                 "shasum": ""
             },
             "type": "library",
@@ -639,7 +639,7 @@
                 "php",
                 "router"
             ],
-            "time": "2016-12-17 12:32:10"
+            "time": "2016-12-17 17:14:31"
         },
         {
             "name": "phireframework/support",
