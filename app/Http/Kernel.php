@@ -4,6 +4,11 @@ namespace App\Http;
 
 use Phire\Framework\Kernel as HttpKernel;
 
+/**
+ * Class Kernel.
+ *
+ * @package App\Http
+ */
 class Kernel extends HttpKernel {
 
     /**
