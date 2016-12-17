@@ -4,9 +4,13 @@ namespace App\Http\Controllers;
 
 class MyController {
 
+    /**
+     * @return mixed
+     */
     public function index() {
 
-        return response("Hello world!")->asJson();
+        return response()->withView('index')
+            ->with('greeting', 'Greetings');
 
     }
 

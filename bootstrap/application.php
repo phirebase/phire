@@ -27,4 +27,9 @@ $app->singleton(
     \App\Http\Kernel::class
 );
 
+$app->singleton(
+    \Phire\Http\Routing\Route::class,
+    \Phire\Http\Routing\Route::class
+);
+
 return $app;

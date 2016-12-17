@@ -43,3 +43,15 @@ $kernel = $app->make(\Phire\Support\Contracts\Http\Kernel::class);
 
 $kernel->bootstrap();
 
+/*----------------------------------------------------------------------------
+| Request and Response
+|-----------------------------------------------------------------------------
+|
+| Get the current request, translate into a response and send the response.
+|
+|---------------------------------------------------------------------------*/
+
+$request = \Phire\Http\Request::gather();
+
+$response = $kernel->handle($request);
+$response->send();

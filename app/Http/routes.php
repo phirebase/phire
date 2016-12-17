@@ -11,10 +11,4 @@ use Phire\Http\Routing\Route;
  |
  */
 
-Route::get( '/', function () {
-
-	return response(["Greetings" => "from Phire"])->asJson();
-
-} );
-
-Route::get( '/home', 'MyController:index' );
+Route::get('/', 'MyController:index');
