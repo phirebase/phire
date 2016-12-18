@@ -5,7 +5,7 @@
  */
 
 return [
-	
-	'template_path' => app()->basePath() . DIRECTORY_SEPARATOR . '/resources/views'
-	
+
+	'template_path' => app()->basePath() . DIRECTORY_SEPARATOR . '/resources/views',
+
 ];
