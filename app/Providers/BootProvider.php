@@ -39,7 +39,7 @@ class BootProvider extends Provider {
 
 		new Route([
 
-			'controllerNamespace' => '\\App\\Http\\Controllers\\'
+			'controllerNamespace' => '\\App\\Http\\Controllers\\',
 
 		]);
 
