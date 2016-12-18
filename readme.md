@@ -1,8 +1,8 @@
 #Phire Framework
 
 [![StyleCI](https://styleci.io/repos/62818586/shield?branch=master)](https://styleci.io/repos/62818586)
-[![Latest Unstable Version](https://poser.pugx.org/phireframework/support/v/unstable)](https://packagist.org/packages/phireframework/support)
 [![Latest Stable Version](https://poser.pugx.org/phireframework/support/v/stable)](https://packagist.org/packages/phireframework/support)
+[![Latest Unstable Version](https://poser.pugx.org/phireframework/support/v/unstable)](https://packagist.org/packages/phireframework/support)
 [![Total Downloads](https://poser.pugx.org/phireframework/support/downloads)](https://packagist.org/packages/phireframework/support)
 [![License](https://poser.pugx.org/phireframework/support/license)](https://packagist.org/packages/phireframework/support)
 
