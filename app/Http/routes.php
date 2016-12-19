@@ -12,3 +12,11 @@ use Phire\Http\Routing\Route;
  */
 
 Route::get('/', 'MyController:index');
+
+Route::group(['prefix' => '/0.0.x'], function () {
+
+    Route::get('/', function () {
+        return response()->withView('index');
+    });
+
+});

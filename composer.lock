@@ -599,16 +599,16 @@
         },
         {
             "name": "phireframework/router",
-            "version": "1.0.0",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phireframework/Router.git",
-                "reference": "be8a4b5b3b7ebf4bfbcd543f6c36240487449972"
+                "reference": "1b61a448a27bd49c9605bbce029ad5e2a67f0597"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phireframework/Router/zipball/be8a4b5b3b7ebf4bfbcd543f6c36240487449972",
-                "reference": "be8a4b5b3b7ebf4bfbcd543f6c36240487449972",
+                "url": "https://api.github.com/repos/phireframework/Router/zipball/1b61a448a27bd49c9605bbce029ad5e2a67f0597",
+                "reference": "1b61a448a27bd49c9605bbce029ad5e2a67f0597",
                 "shasum": ""
             },
             "type": "library",
@@ -639,7 +639,7 @@
                 "php",
                 "router"
             ],
-            "time": "2016-12-17 22:37:12"
+            "time": "2016-12-19 22:58:50"
         },
         {
             "name": "phireframework/support",
