@@ -18,6 +18,6 @@ Run the following commands in terminal:
 * ```cd phire```
 * ```composer install```
 
-Update your ```.env``` file with any credentials that you wush to use for example, to connect to a database.
+Update your ```.env``` file with any credentials that you wish to use for example, to connect to a database.
 
 Add your virtual host or run ```php -S localhost:[port]``` to get started.
