@@ -513,17 +513,20 @@
         },
         {
             "name": "phireframework/framework",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phireframework/Framework.git",
-                "reference": "1dcec32371020d82a1fd27f86503ed404cd71d4a"
+                "reference": "75f2882d90e5c174315c95a0032eb0758018a822"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phireframework/Framework/zipball/1dcec32371020d82a1fd27f86503ed404cd71d4a",
-                "reference": "1dcec32371020d82a1fd27f86503ed404cd71d4a",
+                "url": "https://api.github.com/repos/phireframework/Framework/zipball/75f2882d90e5c174315c95a0032eb0758018a822",
+                "reference": "75f2882d90e5c174315c95a0032eb0758018a822",
                 "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "^5.2"
             },
             "type": "library",
             "autoload": {
@@ -554,7 +557,7 @@
                 "phireframework",
                 "php"
             ],
-            "time": "2016-12-17 23:36:36"
+            "time": "2016-12-22 20:42:17"
         },
         {
             "name": "phireframework/header",
@@ -643,20 +646,19 @@
         },
         {
             "name": "phireframework/support",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phireframework/Support.git",
-                "reference": "c29a469f28a8554f44a209a9ac3e367b02d0678b"
+                "reference": "215fc97caddfc5158fb20a17c7c37ec52cf2b1d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phireframework/Support/zipball/c29a469f28a8554f44a209a9ac3e367b02d0678b",
-                "reference": "c29a469f28a8554f44a209a9ac3e367b02d0678b",
+                "url": "https://api.github.com/repos/phireframework/Support/zipball/215fc97caddfc5158fb20a17c7c37ec52cf2b1d9",
+                "reference": "215fc97caddfc5158fb20a17c7c37ec52cf2b1d9",
                 "shasum": ""
             },
             "require": {
-                "illuminate/database": "^5.2",
                 "mtdowling/cron-expression": "^1.1",
                 "symfony/http-foundation": "^3.2",
                 "symfony/http-kernel": "^3.1",
@@ -692,7 +694,7 @@
                 "php",
                 "support"
             ],
-            "time": "2016-12-17 12:05:04"
+            "time": "2016-12-22 20:44:38"
         },
         {
             "name": "psr/log",
