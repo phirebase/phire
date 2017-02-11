@@ -1,9 +1,8 @@
 {
     "require": {
-        "phireframework/framework": "^1.0",
-        "phireframework/router": "^1.0",
-        "phireframework/support": "^1.0",
-        "phireframework/header": "^1.0",
+        "phireframework/framework": "dev-master",
+        "phireframework/support": "dev-master",
+        "phireframework/header": "dev-master",
         "larapack/dd": "^1.0",
         "filp/whoops": "^2.1"
     },

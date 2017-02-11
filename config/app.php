@@ -10,7 +10,8 @@ return [
 	 */
 	'aliases' => [
 
-		'Route' => \Phire\Http\Routing\Route::class,
+		'Route' => \Phire\Support\Http\Route::class,
+        'Storage' => \Phire\Support\Storage\Storage::class,
 
 	],
 
