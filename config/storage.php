@@ -45,7 +45,7 @@ return [
         'password' => env('FTP_PASSWORD'),
         'port' => env('FTP_PORT', 21),
 
-    ]
+    ],
 
 
 ];
