@@ -28,8 +28,8 @@ $app->singleton(
 );
 
 $app->singleton(
-    \Phire\Http\Routing\Route::class,
-    \Phire\Http\Routing\Route::class
+    \Phire\Support\Http\Route::class,
+    \Phire\Support\Http\Route::class
 );
 
 return $app;

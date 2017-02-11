@@ -16,7 +16,9 @@ class MyController {
      */
     public function index() {
 
-        return response()->withView('index');
+        return response()
+            ->with('version', app()->version())
+            ->withView('index');
 
     }
 

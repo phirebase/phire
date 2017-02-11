@@ -51,7 +51,7 @@ $kernel->bootstrap();
 |
 */
 
-$request = \Phire\Http\Request::gather();
+$request = \Phire\Support\Http\Request::gather();
 
 $response = $kernel->handle($request);
 $response->send();
