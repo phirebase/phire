@@ -523,12 +523,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phireframework/Framework.git",
-                "reference": "8d67f59006231e9e6985528c072dedceab01be8b"
+                "reference": "0eb993b0a9e8da77f7bd4842f136b212ca9a7a16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phireframework/Framework/zipball/8d67f59006231e9e6985528c072dedceab01be8b",
-                "reference": "8d67f59006231e9e6985528c072dedceab01be8b",
+                "url": "https://api.github.com/repos/phireframework/Framework/zipball/0eb993b0a9e8da77f7bd4842f136b212ca9a7a16",
+                "reference": "0eb993b0a9e8da77f7bd4842f136b212ca9a7a16",
                 "shasum": ""
             },
             "require": {
@@ -563,7 +563,7 @@
                 "phireframework",
                 "php"
             ],
-            "time": "2017-02-11 13:23:45"
+            "time": "2017-02-11 15:31:16"
         },
         {
             "name": "phireframework/header",
@@ -612,12 +612,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phireframework/Support.git",
-                "reference": "07e38fc82880066f5297fce20effd852a300bc83"
+                "reference": "f935af12fa281d44f8b0b78e621c1163085015bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phireframework/Support/zipball/07e38fc82880066f5297fce20effd852a300bc83",
-                "reference": "07e38fc82880066f5297fce20effd852a300bc83",
+                "url": "https://api.github.com/repos/phireframework/Support/zipball/f935af12fa281d44f8b0b78e621c1163085015bf",
+                "reference": "f935af12fa281d44f8b0b78e621c1163085015bf",
                 "shasum": ""
             },
             "require": {
@@ -656,7 +656,7 @@
                 "php",
                 "support"
             ],
-            "time": "2017-02-11 14:02:49"
+            "time": "2017-02-11 15:03:07"
         },
         {
             "name": "psr/log",
